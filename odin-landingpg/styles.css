@@ -1,0 +1,14 @@
+
+/* header */
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: /*#1F2937*/;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
