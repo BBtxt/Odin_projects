@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #cacaca;
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    
+
+}
+
+.item {
+    background-color: darkorchid;
+    color: #fff;
+    font-size: 36px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.items-1 {
+    width: 300px;
+    align-self: start;
+}
+.items-2{
+    align-items: end;
+}
