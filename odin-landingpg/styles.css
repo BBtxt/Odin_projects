@@ -116,3 +116,13 @@ body {
     width: 200px; 
 
 }
+
+.three-container {
+    background-color: #bababa;
+    display: flex;
+    justify-content: center;
+    
+}
+.qoute {
+    font-style:  light italic;
+}
