@@ -153,11 +153,15 @@ body {
 .c2a-ttl {
     font-size: 24px;
     margin-bottom: 0%;
-    
+}
+.c2a-txt {
+    margin-top: 0%;
 }
 
 .four-button {
 margin-left: 10px;
+display: flex;
+justify-content: center;
 }
 
 .c2a-btn {
@@ -168,4 +172,17 @@ margin-left: 10px;
     width: 80px;
     border-radius: 20px;
     font-weight: bold;
+    margin-top: 10px;
+}
+
+.footer-container {
+    background-color:#1f2937;
+    height: 40px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-chld {
+    align-self: center;
 }
