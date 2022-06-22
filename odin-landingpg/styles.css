@@ -19,7 +19,7 @@ body {
     background-color: #1f2937;
     color: #e5e7eb;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     align-items: baseline;
     padding-bottom: 0px;
