@@ -121,8 +121,51 @@ body {
     background-color: #bababa;
     display: flex;
     justify-content: center;
-    
+    padding: 20px;
+   
 }
 .qoute {
     font-style:  light italic;
+}
+.qoute-spkr{
+    align-: flex-start;
+}
+
+.four{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.four-container {
+    background-color: #3882f6;
+    color:#e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.call2act {
+    margin-right: 25px;
+}
+.c2a-ttl {
+    font-size: 24px;
+    margin-bottom: 0%;
+    
+}
+
+.four-button {
+margin-left: 10px;
+}
+
+.c2a-btn {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: 2px solid #e5e7eb;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    font-weight: bold;
 }
