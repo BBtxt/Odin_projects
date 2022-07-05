@@ -34,10 +34,6 @@ function game(){
         }
 }
 
-
-
-
-
 //function that chooses a rock, paper, or scissors randomly 
 function computerPlay(){
     let arr = ["ROCK", "PAPER", "SCISSORS"];
