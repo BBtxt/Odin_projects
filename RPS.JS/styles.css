@@ -1,8 +1,48 @@
 body {
-    background: rgb(238,174,202);
+    background: #eeaeca;
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    font-family: 'Abril Fatface' bold;
+    font-family: 'Abril Fatface';
+
+}
+.title-container {
+    color: white;
+    text-shadow: 2px 2px rgba(148,187,233,1);
+    display: flex;
+    justify-content: center;
+
 }
 .headie-container{
+    color: white;
     border: solid 2 white;
+    display: flex;
+    justify-content: center;
+}
+
+.results-container{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.Btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.rock-btn, 
+.paper-btn, 
+.scissors-btn {
+    font-family: 'Abril Fatface';
+    background-color: aliceblue;
+    border: none;
+    width: 125px;
+    border-radius: 8px;
+    color: #eeaeca;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+    /* display: inline-block; */
+    font-size: 16px;
+
 }
