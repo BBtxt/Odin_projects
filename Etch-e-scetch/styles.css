@@ -1,0 +1,13 @@
+body{
+  padding: auto;
+}
+
+.gridRow {
+  border: 0.5px solid red;
+  height: auto;
+
+}
+
+.cell {
+  border: 0.5px solid red;
+}
