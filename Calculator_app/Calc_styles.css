@@ -1,6 +1,11 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: "SF Pro Text","SF Pro Icons","AOS Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 body {
     background-color: #441151;
-    font-family: "SF Pro Text","SF Pro Icons","AOS Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .calculator-body{
@@ -70,3 +75,6 @@ button{
   white-space: nowrap;
 }
 
+button:hover{
+  background-color: #883677;
+}
