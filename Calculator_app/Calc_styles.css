@@ -1,0 +1,72 @@
+body {
+    background-color: #441151;
+    font-family: "SF Pro Text","SF Pro Icons","AOS Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.calculator-body{
+    width: 310px;
+    background-color: #883677;
+    border-radius: 10px;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.017),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.024),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.03),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.036),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.043),
+  100px 100px 80px rgba(0, 0, 0, 0.06)
+;
+margin: auto;
+width: 50%;
+padding: 10px;
+
+
+}
+
+.Calculator-display{   
+    background-image: linear-gradient(#CA61C3, #EE85B5);
+     border: 2px solid #CA61C3;
+     border-radius: 4px;
+     text-align: right;
+     color: #FFFFFF;
+     flex: auto;
+     padding-right: 1%;
+     padding: 2%;
+
+}
+
+.input-btns-container{display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+}
+
+button{
+  background-image: linear-gradient(#CA61C3, #EE85B5);
+  border: 1px solid #883677;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  direction: ltr;
+  display: block;
+  font-family: "SF Pro Text","SF Pro Icons","AOS Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  line-height: 1.47059;
+  min-width: 30px;
+  overflow: visible;
+  padding: 4px 15px;
+  text-align: center;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
