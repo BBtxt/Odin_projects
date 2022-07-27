@@ -1,11 +1,13 @@
+// Event listener for buttons for human selction:
+const buttons = document.querySelectorAll('button');
+buttons.forEach((buttons) => {
+buttons.addEventListener("click", game)
+
 function game(){
-    for(let round=1 ; round<5; round++ ) {
-        playRound()
-        console.log("Round: "+ round )
-    }
+   playRound()
 
     function playRound() {
-        const playerSelection = humanPlay()
+        const playerSelection = buttons.id
         const computerSelection = computerPlay()
         let roundResults;
         
@@ -31,7 +33,20 @@ function game(){
         console.log("Human selected: " + playerSelection)
         console.log("Computer selected: " + computerSelection)
         console.log(roundResults)
-        }
+        
+        const compDisplay = document.querySelector(".compSelct")
+        compDisplay.textContent = `👾: ${computerSelection}`
+
+        const gameResults = document.querySelector(".gameResults")
+        gameResults.textContent = `${roundResults}`
+    
+    
+    
+    
+    }
+
+
+
 }
 
 //function that chooses a rock, paper, or scissors randomly 
@@ -40,6 +55,13 @@ function computerPlay(){
     let picker = Math.floor(Math.random()*(3))
     return arr[picker]
 }
+
+
+
+})
+
+
+
 //function that interprets input and parses for uppercase and if it is a valid input
 function humanPlay(){
     let playerInput = prompt("Rock Paper or Scissors")
@@ -59,5 +81,27 @@ function humanPlay(){
     }
     return result
 }
+// assign element selection
 
 
+// logic things idk to do with 
+// button.addEventListener("click", () => {
+//     // alert(button.id)
+//     let result;
+//     let input = button.id
+//     if (input === "ROCK"){
+//         // console.log("ROCK is players pick")
+//         result = "ROCK"
+//     } else if (input === "PAPER") {
+//         // console.log("PAPER is players pick")
+//         result = "PAPER"
+//     } else if (input === "SCISSORS") {
+//         // console.log("SCISSORS is players pick")
+//         result = "SCISSORS"
+//     } else {
+//         result= 'Please choose: Rock, Paper, or Scissors!'
+//     }
+//     return console.log(result)
+// })
+
+// })
