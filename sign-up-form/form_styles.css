@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.content {
+    background-color: aquamarine;
+    display: flex;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.left-container {
+    flex: auto;
+    height: 1fr;
+    width: 50%;
+    margin: auto;
+    background-color: bisque;
+}
+
+.right-container {
+    flex: auto;
+    width: 50%;
+    margin: auto;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+}
+
+.statement-text {
+    background-color: whitesmoke;
+    margin: 1vh;
+}
+
+.forms{
+    background-color: white;
+    margin: 1vh;
+    padding: .5vh;
+    display: grid;
+    grid-template-columns: repeat(2, 12px);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 4px;
+}
+    
+
+.forms>div{
+    padding-left: 1vh;
+    direction: ltr;
+    display: block;
+    margin: .5vh;
+    background-color: brown;
+}
+
