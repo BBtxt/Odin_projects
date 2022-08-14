@@ -1,55 +1,108 @@
 *,
 *::before,
 *::after {
+
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .content {
-    background-color: aquamarine;
+    background-color: white;
     display: flex;
-    align-content: center;
+    /* align-content: center; */
     min-height: 100vh;
+    min-width: 100vw;
 }
+
+/* LEFT */
 
 .left-container {
-    flex: auto;
-    height: 1fr;
     width: 50%;
-    margin: auto;
-    background-color: bisque;
-}
-
-.right-container {
-    flex: auto;
-    width: 50%;
-    margin: auto;
-    background-color: blueviolet;
+    background-image: url(./src/L1008473.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding-bottom: 30vh;
+}
+
+.logo {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 70%;
+    height: 20vh;
+}
+ 
+.logo-img {
+    height: 20vh;
+}
+
+.logo-text {
+    font-size: 2em;
+}
+/* RIGHT */
+
+.right-container {
+    width: 60%;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    background-color: whitesmoke;
+
 }
 
 .statement-text {
     background-color: whitesmoke;
+    /* width: 90%; */
     margin: 1vh;
+    padding: 5vh 2vh 2vh 2vh;
 }
 
 .forms{
     background-color: white;
-    margin: 1vh;
-    padding: .5vh;
+    padding: 3vh;
+    height: auto;
+    width: fill;
     display: grid;
-    grid-template-columns: repeat(2, 12px);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
-    grid-gap: 4px;
+    grid-gap: 20px;
 }
-    
-
-.forms>div{
-    padding-left: 1vh;
-    direction: ltr;
-    display: block;
-    margin: .5vh;
-    background-color: brown;
+.input{
+    width: 40%;
+    font-size: .5rem;
+    opacity: 70%;
+}
+.btn{
+    padding: 2vh;
+}
+button {
+    width: 20vw;
+    border: none;
+    background-color: #F77178;
+    color: #fff;
+    padding: 1vw;
+    font-size: medium;
+    border-radius: 5%;
+}
+button:hover{
+    opacity: 0.7;
+}
+ 
+.footer {
+    padding: 1vh;
 }
 
+a{
+    font-weight: bold;
+    color: #F77178;
+}
