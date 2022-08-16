@@ -17,18 +17,12 @@ body {
   display: grid;
   justify-content: center;
   align-content: center;
-  min-height: 100vh;
+  min-height: 50vh;
   padding: auto;
-  grid-template-columns: repeat(4, 100px);
-  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(6, 100px);
   border-radius: 10px;
-  box-shadow:
-    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.017),
-    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.024),
-    12.5px 12.5px 10px rgba(0, 0, 0, 0.03),
-    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.036),
-    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.043),
-    100px 100px 80px rgba(0, 0, 0, 0.06);
+  
 }
 
 .calculator-body>button {

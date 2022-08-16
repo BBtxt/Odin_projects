@@ -21,6 +21,8 @@ class Calculator {
         if (this.currentOperand === '') return
         if (this.previousOperand !== '') {
             this.compute()
+        } else if (this.currentOperand === '√') {
+            this.compute()
         }
         this.operation = operation
         this.previousOperand = this.currentOperand
@@ -43,6 +45,12 @@ class Calculator {
                 break
             case '÷':
                 computation = previous / current
+                break
+            case '^':
+                computation = previous ** current
+                break
+            case '√':
+                computation = Math.sqrt(current)
                 break
             default:
                 return
@@ -117,3 +125,5 @@ deleteButton.addEventListener('click', button => {
     calculator.delete()
     calculator.updateDisplay()
 })
+
+equalsButton
